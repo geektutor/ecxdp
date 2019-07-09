@@ -29,7 +29,7 @@ $(function() {
         // x, y, width, height
         const picData = [219, 88, 646, 550];
         // name, y
-        const nameData = [username, 710];
+        const nameData = [username, 700];
 
         createDP(username, imageData, picData, nameData, function(url) {
             navigateTo("yourdp", createHTMLForImage(url));
@@ -137,7 +137,7 @@ $(function() {
 
             ctx.textBaseline = "top";
             ctx.textAlign = "center";
-            ctx.font = "80px Raleway";
+            ctx.font = "70px Raleway";
             ctx.fillStyle = "#507134";
             ctx.fillText(name[0], 540, name[1]);
 
