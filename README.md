@@ -1,10 +1,8 @@
-# Event DP
+# (PAADC
 
-#### (Case study Engineering Career Expo, Unilag)
+This is a volunteer project to create social media awareness for the student run event. Attendees input their name and upload an image to generate a customize PAADC event dp.
 
-This is a volunteer project to create social media awareness for the student run event. Attendees input their name and upload an image to generate a customize ECX event dp.
-
-You can find an online demo at [ECX](https://ecx.website/dp).
+You can find an online demo at [PAADC](https://geektutor.github.io/PAADC).
 
 ![eventDp homepage](https://github.com/geektutor/dp/blob/master/screenshot.png)
 
@@ -41,7 +39,7 @@ You can find an online demo at [ECX](https://ecx.website/dp).
 
 - Open your command prompt and clone the repository by running
 
-`git clone https://github.com/geektutor/dp.git`
+`git clone https://github.com/geektutor/PAADC.git`
 
 - Copy the folder to your **WAMP** www root or **XAMPP** htdots or run php -S 127.0.0.1:1000 from your folder in your terminal
 - Then run in a browser
@@ -64,4 +62,4 @@ You can set the height and width of the uploaded image in the createDP function 
 
 #### [Geektutor](https://github.com/geektutor)
 
-#### This project is based on [KwaraBuildDP](https://github.com/Ahmzyjazzy/generatedp) by [Ahmad Olarenwaju](https://ng.linkedin.com/in/ahmzyjazzy)
+###  [Moyin](https://github.com/moyin12)
