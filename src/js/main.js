@@ -27,7 +27,7 @@ $(function() {
             .html("...processing");
 
         // x, y, width, height
-        const picData = [219, 88, 646, 550];
+        const picData = [258, 70, 565, 565];
         // name, y
         const nameData = [username, 700];
 
