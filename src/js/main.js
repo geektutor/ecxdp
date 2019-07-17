@@ -138,7 +138,7 @@ $(function() {
             ctx.textBaseline = "top";
             ctx.textAlign = "center";
             ctx.font = "bold 60px Raleway";
-            ctx.fillStyle = "#000";
+            ctx.fillStyle = "#507134";
             ctx.fillText(name[0], 540, name[1]);
 
             cb(canvas.toDataURL("image/jpeg", 1.0));
