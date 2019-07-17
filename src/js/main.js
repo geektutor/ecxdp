@@ -29,7 +29,7 @@ $(function() {
         // x, y, width, height
         const picData = [258, 70, 565, 565];
         // name, y
-        const nameData = [username, 700];
+        const nameData = [username, 703];
 
         createDP(username, imageData, picData, nameData, function(url) {
             navigateTo("yourdp", createHTMLForImage(url));
