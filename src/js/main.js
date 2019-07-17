@@ -137,7 +137,7 @@ $(function() {
 
             ctx.textBaseline = "top";
             ctx.textAlign = "center";
-            ctx.font = "60px Raleway";
+            ctx.font = "bold 60px Raleway";
             ctx.fillStyle = "#000";
             ctx.fillText(name[0], 540, name[1]);
 
