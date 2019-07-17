@@ -172,6 +172,7 @@ button[value="submit"] {
     display: block;
     background-color: #507134;
     color: #fff;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding: 0.7rem;
     border: none;
