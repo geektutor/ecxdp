@@ -41,7 +41,7 @@ $(function() {
           <div>
           <img id="dp_result" src=${url} title="Your DP"/>
           <br>
-          <a class="download-dp" href="${url}" download="PAADC_DP_${username}">Download Image</a>
+          <a class="download-dp" href="${url}" download="ECX_DP_${username}">Download Image</a>
         <section>
       `;
             }
@@ -138,7 +138,7 @@ $(function() {
             ctx.textBaseline = "top";
             ctx.textAlign = "center";
             ctx.font = "bold 80px Raleway";
-            ctx.fillStyle = "#8AC4F0";
+            ctx.fillStyle = "#176092";
             ctx.fillText(name[0], 700, name[1]);
 
             cb(canvas.toDataURL("image/jpeg", 1.0));
