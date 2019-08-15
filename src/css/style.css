@@ -7,9 +7,9 @@ body {
     width: 100vw;
     font-size: 100%;
     color: #000;
-    background: #1d809f;
+    background: linear-gradient(#223847, #0b060e, #3a4750);
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -19,11 +19,6 @@ body {
 
 h1 {
     padding-left: 40px;
-    align-content: center;
-    color:rgb(177, 20, 72);
-    padding-bottom: 4px;
-    box-shadow: 4px 4px 4px rgb(177, 20, 72);
-    background-color: #00BCD4;
 }
 
 
@@ -65,7 +60,6 @@ h1 {
     overflow: hidden;
     -webkit-transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-    color: rgb(177, 20, 72);
 }
 
 header,
@@ -89,7 +83,7 @@ header {
 main {
     flex: 1 1 auto;
     min-width: 980px;
-    background: #00BCD4;
+    background: #223847;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -125,16 +119,12 @@ main {
 .top {
     width: 30%;
     min-height: 80%;
-    background: rgb(177, 20, 72);
+    background: #362f24;
     position: absolute;
     right: 15%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    border: none;
-    padding-top: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgb(255, 189, 66);
 }
 
 
@@ -200,8 +190,8 @@ span[class*="ti-"] {
     padding-right: 2px;
 }
 
-.ti {
-    color: rgb(177, 20, 72);
+.tint {
+    color: #303841;
     font-weight: 700;
 }
 
@@ -211,16 +201,11 @@ span[class*="ti-"] {
 form {
     order: 1;
     flex: 0 1 auto;
-    background-color:rgb(255, 189, 66);
-    border-radius: 2px;
-    border: solid rgb(177, 20, 72) 3px;
-    padding-top: 8px;
 }
 
 fieldset {
-    background:rgb(255, 189, 66);
-    border: none;
-    padding-top: 8px;
+    background: rgb(255, 255, 255);
+    border: 3px outset rgb(153, 167, 62);
 }
 
 legend {
@@ -239,38 +224,29 @@ legend {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    color: rgb(177, 20, 72) !important;
-    background-color: rgb(255, 189, 66);
-    border: solid rgb(177, 20, 72) 2px;
-    border-radius: 5px;
+    color: #000 !important;
 }
 
 #fullname {
     transition: all 0.5s ease;
-    background: rgb(255, 189, 66) url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
-    border: 1px solid rgb(177, 20, 72);
-    color: rgb(177, 20, 72);
+    background: #fff url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+    border: 1px solid rgb(200, 200, 200);
+    color: rgb(119, 119, 119);
     margin: 0 0 10px;
     padding: 10px 10px 12px 40px;
     background-position: 5px 9px;
 }
-::placeholder{
-    color: rgb(177, 20, 72);
-    font-family: "Roboto", sans-serif;
-    padding: 0px;
-  }
 
 button[value="submit"] {
     display: block;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-    background-color:  rgb(255, 189, 66);
+    background-color: rgb(153, 167, 62);
     font-weight: 700;
     width: 90%;
 }
 
 button[type="submit"]:hover {
-    color: rgb(177, 20, 72);
-    font-size: large;
+    color: #000;
 }
 
 
@@ -302,8 +278,8 @@ button[type="submit"]:hover {
 
 .btn-input {
     color: rgb(255, 255, 255);
-    background-color: rgb(177, 20, 72);
-    border-color: #fff;
+    background-color: rgb(153, 167, 62);
+    border-color: rgb(29, 129, 209);
 }
 
 .change,
@@ -312,8 +288,8 @@ button[type="submit"]:hover {
 }
 
 .change {
-    background: rgb(255, 189, 66);
-    border-color: rgb(177, 20, 72);
+    background: orange;
+    border-color: orange;
 }
 
 .delete {
@@ -368,7 +344,7 @@ img#dp_result {
     margin: 0 auto;
     border: none;
     outline: none;
-    background: rgb(177, 20, 72);
+    background: rgb(153, 167, 62);
     color: #fff;
 }
 
@@ -385,7 +361,7 @@ footer p {
 }
 
 footer .social {
-    color: rgb(255, 189, 66);
+    color: #03a9f4;
     text-decoration: none;
 }
 
@@ -406,7 +382,7 @@ footer .social {
 
 .image-size-label {
     margin-top: 10px;
-    color: rgb(177, 20, 72);
+    color: #000;
     margin-left: 7px;
 }
 
@@ -414,9 +390,6 @@ input {
     display: block;
     margin-left: 7px;
 }
-input[type="text"]{
-    color: rgb(255, 189, 66);
-  }
 
 button[type="submit"] {
     margin-top: 10px;
@@ -458,8 +431,7 @@ button[type="submit"] {
         height: auto;
         flex-flow: row wrap;
         overflow-y: scroll;
-        background: #00BCD4;
-        box-shadow: 0px;
+        background: #223847;
     }
     .under,
     .top {
