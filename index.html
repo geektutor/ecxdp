@@ -5,25 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DP Generator</title>
+    <title>ECX DP Generator</title>
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link rel="stylesheet" type="text/css" href="src/css/style.css">
     <link rel="stylesheet" type="text/css" href="src/fonts/themify-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <h1>DP Generator</h1>
+        <h1>ECX DP Generator</h1>
     </header>
 
     <main>
 
         <section class="under">
             <div>
-                <h2>Display Picture (DP) Generator</h2>
-                <p class="">Upload photo to create your DP</p>
+                <p class="" style="color: rgb(177, 20, 72)">Upload photo to create your DP</p>
                 <p class="step">To generate your personalized DP</p>
             </div>
             <ul>
@@ -31,30 +33,29 @@
                 <li class="ti">Upload your picture (for best experience, crop the picture to square)</li>
                 <li class="ti">Click on Create your own DP</li>
                 <li class="ti">Dont forget to share on
-                    <span class="ti-facebook" style="color: rgb(29, 45, 130);">facebook</span>,
-                    <span class="ti-twitter" style="color: #03A9F4;">twitter</span>,
-                    <span class="ti-instagram" style="color: #00BCD4;">instagram</span>, and make sure you hashtag (#DP)</li>
+                    <span class="ti-twitter" style="color: rgb(177, 20, 72);text-decoration: none"><a href="http://twitter.com/ecx_unilag" style="color: rgb(177, 20, 72);text-decoration: none;font-family:'Montserrat', sans-serif ">twitter</a></span>,
+                    <span class="ti-instagram" style="color: rgb(255, 189, 66);text-decoration: none"><a href="http://instagram/com/ecx_unilag"style="color: rgb(255, 189, 66);text-decoration: none;font-family:'Montserrat', sans-serif ">instagram</a></span>, and make sure you hashtag (#DP)</li>
             </ul>
         </section>
 
         <section class="top">
             <form enctype="multipart/form-data" action="" method="POST" onsubmit="event.preventDefault();">
                 <fieldset>
-                    <legend class="ti-camera"></legend>
+                    <legend class="ti-camera" style="color: rgb(177, 20, 72); padding-top: 5px;"></legend>
                     <div class="form-control">
                         <input placeholder="name" required="" id="fullname" name="fullname" type="text">
                     </div>
                     <div class="image-editor">
                         <!-- <input type="file" class="cropit-image-input"> -->
                         <span class="btn btn-input fileinput-button">
-		                    <i class="ti-camera"></i>
+		                    <i class="ti-camera" style="color: rgb(255, 189, 66);"></i>
 		                    <span>Choose an image...</span>
                         <input id="file" name="file" type="file" class="cropit-image-input" required="">
                         <input type="hidden" name="image-data" class="hidden-image-data" />
                         </span>
                         <div class="form-control">
                             <button type="reset" class="btn btn-input change hide">
-		                    <i class="ti-image"></i>
+		                    <i class="ti-image" style="color: rgb(255, 189, 66);"></i>
 		                    <span>Change Image</span>
 			                </button>
                             <button type="button" class="btn btn-input delete hide">
@@ -63,7 +64,7 @@
 			                </button>
                         </div>
                         <div class="cropit-preview"></div>
-                        <div class="image-size-label">
+                        <div class="image-size-label" style="color: rgb(177, 20, 72);">
                             Resize image
                         </div>
                         <input type="range" class="cropit-image-zoom-input">
