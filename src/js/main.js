@@ -27,7 +27,7 @@ $(function() {
             .html("...processing");
 
         // x, y, width, height
-        const picData = [75, 89, 1026, 951];
+        const picData = [85, 89, 1021, 951];
         // name, y
         const nameData = [username, 1300];
 
@@ -100,13 +100,13 @@ $(function() {
             ctx = canvas.getContext("2d"),
             imageCount = 2,
             view = {
-                x: 234,
+                x: 240,
                 y: 199,
                 width: pic[2],
                 height: pic[3]
             },
             innerText = {
-                x: 109,
+                x: 115,
                 y: 448
             };
 
