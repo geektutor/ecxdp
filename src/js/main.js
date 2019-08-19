@@ -27,7 +27,7 @@ $(function() {
             .html("...processing");
 
         // x, y, width, height
-        const picData = [255, 255, 1115, 1115];
+        const picData = [255, 255, 600, 600];
         // name, y
         const nameData = [username, 13000];
 
@@ -41,7 +41,7 @@ $(function() {
           <div>
           <img id="dp_result" src=${url} title="Your DP"/>
           <br>
-          <a class="download-dp" href="${url}" download="ECX_DP_${username}">Download Image</a>
+          <a class="download-dp" href="${url}" download="TAX_DP_${username}">Download Image</a>
         <section>
       `;
             }
@@ -100,8 +100,8 @@ $(function() {
             ctx = canvas.getContext("2d"),
             imageCount = 2,
             view = {
-                x: 692.5,
-                y: 740,
+                x: 220,
+                y: 100,
                 width: pic[2],
                 height: pic[3]
             },
