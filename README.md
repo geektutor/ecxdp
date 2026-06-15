@@ -42,7 +42,7 @@ You can find an online demo at [PAADC](https://geektutor.github.io/PAADC).
 `git clone https://github.com/geektutor/PAADC.git`
 
 - Copy the folder to your **WAMP** www root or **XAMPP** htdots or run php -S 127.0.0.1:1000 from your folder in your terminal
-- Then run in a browser
+- Then run in the browser
 
 ---
 
